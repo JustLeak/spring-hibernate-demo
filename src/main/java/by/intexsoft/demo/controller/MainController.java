@@ -1,8 +1,8 @@
 package by.intexsoft.demo.controller;
 
+import by.intexsoft.demo.handler.IMainHandler;
 import by.intexsoft.demo.model.Payload;
 import by.intexsoft.demo.model.Response;
-import by.intexsoft.demo.handler.IMainHandler;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;

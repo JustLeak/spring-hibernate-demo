@@ -14,8 +14,7 @@ import javax.servlet.ServletRegistration;
 @EnableWebMvc
 @ComponentScan(basePackages = "by.intexsoft.demo")
 @Configuration
-public class WebAppConfig implements WebApplicationInitializer {
-
+public class Application implements WebApplicationInitializer {
     @Override
     public void onStartup(ServletContext servletContext) {
         AnnotationConfigWebApplicationContext rootContext = new AnnotationConfigWebApplicationContext();
