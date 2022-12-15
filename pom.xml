@@ -10,7 +10,7 @@
     <version>1.0</version>
 
     <properties>
-        <spring.version>5.1.5.RELEASE</spring.version>
+        <spring.version>5.2.20.RELEASE</spring.version>
         <servlet-api.version>4.0.1</servlet-api.version>
         <tomcat-dbcp.version>9.0.16</tomcat-dbcp.version>
         <compiler.plugin.version>3.8.1</compiler.plugin.version>
